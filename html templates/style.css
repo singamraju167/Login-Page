@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: #9e8fb2;
+    background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 2rem;
+    margin: 20rem;
+    background-color: #fff;
+    width: 500px;
+    height: 50%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 1.5rem;
+    display: block;
+}
+
+.name #name {
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#enter {
+    color: #fff;
+    border-radius: 1rem;
+    background-color: rgb(168, 80, 185);
+    border: none;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    display: block;
+    box-shadow: 20px 15px 15px rgb(103, 81, 112);
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.2rem;
+    display: block;
+}
+
+.sign_up {
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+
+.apps {
+    margin-top: 10px;
+    border: none;
+    font-size: 3.5rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+#fb {
+    margin-right: 5rem;
+    color: #3b6998;
+}
+
+#twitter {
+    color: rgb(32, 136, 255);
+}
